@@ -42,6 +42,8 @@
 				<mapping element="Showtime" mapto="property:calendar.showtime" />
 				<mapping element="Date" mapto="property:calendar.startdate" />
 				<mapping element="End" mapto="property:calendar.enddate" />
+				<!-- Enables nice url name for detail pages -->
+				<mapping element="Title" mapto="urlName" />				
 			</mappings>
 			<validationrules/>
 		</xsd:appinfo>
